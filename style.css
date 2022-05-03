@@ -2,6 +2,7 @@
 header{
     background-image: url("./images/quartier.jpg");
     height: 250px;
+    object-fit: fill;
 }
 
 navbar{
@@ -10,14 +11,25 @@ navbar{
     justify-content: space-between;
 }
 
-navbar img{
-    width: 155px;
-    margin-top: -61px;
+navbar .menu{
+    height: 24px;
+    width: 25px;
+    margin: 5px 5px 5px 5px;
+    
+}
+
+
+navbar .logo{
+    height: 18px;
+    width: 200px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: none;
 }
 
 navbar button{
-    height: 30px;
-    margin: 3px 3px 0 0;
+    height: 18px;
+    margin: 5px 5px 5px 5px;
     border-radius: 10px;
     border: none;
 }
@@ -28,32 +40,68 @@ navbar div{
     margin: 10px 3px 0 5px;
     border-radius: 10px;
     border: none;
-color:#fdfdfd;
+    color:#fdfdfd;
+}
+
+#slogan {
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+section .slogan{
+    color: rgb(255, 255, 255)
 }
 
 
-section  .slogan{
-    color: rgb(255, 255, 255);
+.app{
+    display: flex;
 }
 
-
-
-
-section .imgAppStore{
-    height: 10px;
-    width: 20px;
+ .imgAppStore{
+    height: 38px;
+    width: 116px;
    }
 
-   section .imgGooglePlay{
-    height: 1px;
-    width: 1px;
+   .imgGooglePlay{
+    height: 38px;
+    width: 116px;
    }
 
 
+   .inscription{
+       color:black;
+       font-size: 12px;
+       font-family: 'Courier New', Courier, monospace;
+       font-weight: bold;
+   }
 
-#login{
-    /* background-color:rgb(21, 255, 0); */
-    } 
-
- 
+   .rejoignez{
+       background-color: chartreuse;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       border-radius: 10px;
+       border: none;
+       font-weight: bold;
+   }
   
+   form{
+display: flex;
+
+   }
+
+   .form-nom{
+    border-radius: 10px;
+    border: none;
+   }
+
+   .form-appt{
+    border-radius: 10px;
+    border: none;
+   }
+
+   .form-email{
+    border-radius: 10px;
+    border: none;
+   }
+
+
+
