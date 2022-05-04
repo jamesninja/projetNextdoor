@@ -1,73 +1,129 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- <title>Document</title> -->
-        <link rel="stylesheet" href="style.css" />
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Put your description here.">
+</head>
 
-    <body>
-        <header>
-        <!-- <img id="imgQuartier" src="images/quartier.jpg">   -->
+<body>
+    <header>
         <navbar>
-            <img class="menu" src="images/menu.jpg"/>
-            <img class="logo" src="images/nextdoor.svg"/>
+            <img class="menu" src="images/menu.png"/>
+            <img class="logo" src="images/logo.svg"/>
             <button>Se connecter</button>
         </navbar>
         <section id="slogan">
             <div class="slogan">
                 Profitez de votre quartier
             </div>
-    <div class="app">
-        <img class="imgAppStore" src="images/appStore.png" />
-        <img class="imgGooglePlay" src="images/googlePlay.png" />
-    </div>
-                           
+            <div class="app">
+                <img class="imgAppStore" src="images/appStore.svg" />
+                <img class="imgGooglePlay" src="images/googlePlay.svg"/>
+            </div>
         </section>
+    </header>
 
-        </header>
-        <section>
-            <div class="inscription">
-                Entrez votre adresse e-mail pour vous inscrire.
+    <section id="connect">
+        <div class="inscription">
+            Entrez votre adresse e-mail pour vous inscrire.
+        </div>
 
+        <form action="" method="get" class="form-example">
+
+            <div class="form-nom">
+                <input type="text" name="name" id="name" placeholder="Nom de rue" required>
             </div>
 
-            <form action="" method="get" class="form-example">
-                <div class="form-nom">
-                <!-- <label for="name">Nom de rue: </label> -->
-                <input type="text" name="name" id="name" placeholder="Nom de rue" required>
-                </div>
+            <div class="form-appt">
+                <input type="text" name="name" id="name" placeholder="Appt" required>
+            </div>
 
-                <div class="form-appt">
-                    <!-- <label for="name">Appt: </label> -->
-                    <input type="text" name="name" id="name" placeholder="Appt" required>
-                </div>
-
-                <div class="form-email">
-                <!-- <label for="email">Enter your email: </label> -->
+            <div class="form-email">
                 <input type="email" name="email" id="email" placeholder="Enter your email" required>
-                </div>
+
+            </div>
                 <button class="rejoignez">Rejoignez votre quartier</button>
             </div>
-            </form>
-            
-        </section>
-
-<section>
-
-    <div class="descriptif">
-        Profitez de la vie de quartier avec Nextdoor
+        </form>
+    </section>
+    <section id="rubrique">
+        <div class="descriptif">
+            Profitez de la vie de quartier avec Nextdoor
+        </div>
+        <p>
+            Nextdoor est l'endroit où les quartiers se rassemblent pour accueillir les nouveaux voisins, 
+            échanger des recommandations et s'informer sur les dernières actualités locales. Où les voisins soutiennent les commerces locaux et reçoivent les dernières nouvelles de la part des services publics. Où les voisins empruntent des outils et vendent des canapés. Nextdoor est l'endroit qui vous permet de profiter pleinement de votre quartier. 
+            Bienvenue, cher·e voisin·e.
+        </p>
+    </section id="rubrique">
+    <h2>  Essentiel  </h2>
+    <div>
+        <img src="images/essentiel.svg" />  
     </div>
-    <p>
-        Nextdoor est l'endroit où les quartiers se rassemblent pour accueillir les nouveaux voisins, échanger des recommandations et s'informer sur les dernières actualités locales. Où les voisins soutiennent les commerces locaux et reçoivent les dernières nouvelles de la part des services publics. Où les voisins empruntent des outils et vendent des canapés. Nextdoor est l'endroit qui vous permet de profiter pleinement de votre quartier. 
-        Bienvenue, cher·e voisin·e.
-    </p>
+    <div>
+        <p>
+        Des actualités et des informations pertinentes provenant directement de vos voisins,
+        de commerces locaux et des services publics.
+        </p>
+    </div>
 
-</section>
+    <h2>  Local  </h2>
+    <div>
+        <img src="images/local.svg" />  
+    </div>
+    <div>
+        <p>
+            Le seul moyen de contacter instantanément vos voisins et les entreprises
+            de votre quartier, tout en s'informant des évènements autour de chez vous.
+        </p>
+    </div>
 
+    <h2>  Fiable  </h2>
+    <div>
+        <img src="images/fiable.svg" />  
+    </div>
+    <div>
+        <p>
+            Un environnement 
+            fiable où tous les voisins sont confirmés.
+        </p>
+    </div>
+    </section>
+    <section>
+        <h2>Connectez-vous à votre quartier</h2>
+        <button>S'inscrire</button>
+    </section>
 
+    <footer>
+        <P>Nextdoor</P>
+        <div>
+            <a href="https://about.nextdoor.com/fr/" class="propos">À propos</a>
+        </div>
 
-    </body>
-    </html>
+        <div>
+            <a href="https://about.nextdoor.com/fr/news/" class="actus"> Actualités</a>
+        </div>
+
+        <div>
+            <a href="https://investors.nextdoor.com/home/default.aspx"> Relations avec les investisseurs</a>
+        </div>
+
+        <div>
+            <a href="https://frblog.nextdoor.com/" class="blog">Blog</a>
+        </div>
+
+        <div>
+            <a href="https://about.nextdoor.com/fr/careers/" class="jobs">Carrières</a>
+        </div>
+        <div>
+            <a href="https://help.nextdoor.com/s/?language=fr" class="aide">Aide</a>
+        </div>
+        <div>
+            <img class="imgAppStore" src="images/drapeauFrançais.png" />
+        </div>
+    </footer>
+</body>
+</html>
